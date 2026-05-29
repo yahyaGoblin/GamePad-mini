@@ -1,9 +1,15 @@
 # Split PCB Gamepad
 
 A custom gamepad built on a split PCB design, with two halves connected via a 14-pin ribbon cable connector on each side.
+### Schematic Preview
+<img width="862" height="671" alt="image" src="https://github.com/user-attachments/assets/37f95ff1-d4c2-4dd9-b99a-5f0e481f5bde" />
 
-![PCB Preview](./images/preview.jpg)
+### PCB Preview
+<img width="841" height="843" alt="image" src="https://github.com/user-attachments/assets/ef362b7f-dc74-436d-adf0-180465fe333e" />
 
+### 3D Preview
+
+<img width="967" height="926" alt="image" src="https://github.com/user-attachments/assets/0ad33c08-f1ed-44bb-b082-76f7ff03ad64" />
 ## Features
 
 - Split PCB — left and right halves connected via ribbon cable
@@ -33,26 +39,9 @@ The gamepad is split into two PCBs:
 
 Both halves share the same connector footprint on the inner edges.
 
-## Fabrication
-
-Gerber files for both halves are in the `/gerbers` folder.
-
-Recommended specs:
-- Layers: 2
-- Thickness: 1.6mm
-- Surface finish: HASL or ENIG
-
 ## Firmware
 
 Compatible with [QMK](https://qmk.fm/) or [KMK](https://github.com/KMKfw/kmk_firmware) with split keyboard support.
-
-## Project Files
-
-| File | Description |
-|------|-------------|
-| `gamepad.kicad_sch` | Schematic |
-| `gamepad.kicad_pcb` | PCB layout |
-| `/gerbers` | Fabrication files for both halves |
 
 ## License
 
